@@ -12,6 +12,7 @@ import { I18nextProvider } from 'react-i18next';
 import { changeLanguage, i18n } from '@module-federation-next/language';
 import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
+import './styles.css'
 
 function CustomApp({ Component, pageProps }: AppProps) {
   const [mode, setMode] = useState<'light' | 'dark'>(getInitialTheme());
@@ -37,7 +38,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (e: MediaQueryListEvent) => {
-      setMode(e.matches ? 'dark' : 'light');
+      const theme = localStorage.getItem('theme')
+      if(theme){
+        //
+      }else{
+        setMode(e.matches ? 'dark' : 'light');
+      }
     };
 
     mediaQuery.addEventListener('change', handleChange);

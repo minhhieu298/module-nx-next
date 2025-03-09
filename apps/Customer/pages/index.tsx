@@ -47,13 +47,13 @@ function Index() {
       {/* <CustomTextField /> */}
       <div suppressHydrationWarning>
         <CustomTextField type="2" />
-        {/* <CustomTabs
+        <CustomTabs
           tabs={tabData}
           variant="scrollable"
           orientation="horizontal"
           defaultTab={0}
           onTabChange={handleTabChange}
-        /> */}
+        />
       </div>
     </div>
   );
