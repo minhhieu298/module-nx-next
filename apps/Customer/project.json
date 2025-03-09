@@ -1,0 +1,40 @@
+{
+  "name": "Customer",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/Customer",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project Customer --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "options": {
+        "outputPath": "dist/apps/Customer",
+        "copyAssets": ["libs/fonts/src/lib/static/**"]
+      }
+    },
+    "dev": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "Customer:build",
+        "port": 3000
+      }
+    },
+
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "Customer:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "Customer:build:development",
+          "dev": true,
+          "keepAliveTimeout": 60000
+        }
+      }
+    }
+  }
+}

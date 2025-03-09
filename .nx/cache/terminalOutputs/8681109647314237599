@@ -1,0 +1,8 @@
+   [1m[38;2;173;127;168m▲ Next.js 15.1.7[39m[22m
+   - Local:        http://localhost:4200
+   - Network:      http://192.168.1.6:4200
+
+ [32m[1m✓[22m[39m Starting...
+TypeError: NextFederationPlugin is not a constructor
+    at webpack [90m(D:\module-federation-next\apps\Customer\[39mnext.config.js:45:7[90m)[39m
+[?25h

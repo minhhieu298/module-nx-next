@@ -1,0 +1,741 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {
+    "@module-federation-next/fonts": [
+      "libs/fonts/src/index.ts"
+    ],
+    "@module-federation-next/fonts/server": [
+      "libs/fonts/src/server.ts"
+    ],
+    "@module-federation-next/input": [
+      "libs/shared-components/input/src/index.ts"
+    ],
+    "@module-federation-next/language": [
+      "libs/language/src/index.ts"
+    ],
+    "@module-federation-next/textfield": [
+      "libs/shared-components/textfield/src/index.ts"
+    ],
+    "@module-federation-next/theme": [
+      "libs/theme/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "serveStaticTargetName": "serve-static",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7360478915843480458"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "11651723224925199318"
+      },
+      {
+        "file": "azure-pipelines.yml",
+        "hash": "11803692377367598054"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6187440494968445572"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "7575181448484882251"
+      },
+      {
+        "file": "package.json",
+        "hash": "8670926647696346408"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7819529492787476995"
+      }
+    ],
+    "projectFileMap": {
+      "theme": [
+        {
+          "file": "libs/theme/README.md",
+          "hash": "11115893154518947864"
+        },
+        {
+          "file": "libs/theme/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "libs/theme/project.json",
+          "hash": "11114475843009156"
+        },
+        {
+          "file": "libs/theme/src/index.ts",
+          "hash": "4070140226992961547"
+        },
+        {
+          "file": "libs/theme/src/lib/config/InputTheme.ts",
+          "hash": "13012433404591936550",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "libs/theme/src/lib/config/TextFieldTheme.ts",
+          "hash": "1625071610862471796",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "libs/theme/src/lib/theme.ts",
+          "hash": "9186553164381143467",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "libs/theme/tsconfig.json",
+          "hash": "6159797437362864955"
+        },
+        {
+          "file": "libs/theme/tsconfig.lib.json",
+          "hash": "15798669420171897096"
+        }
+      ],
+      "Customer": [
+        {
+          "file": "apps/Customer/.env.local",
+          "hash": "3990426018854119362"
+        },
+        {
+          "file": "apps/Customer/components/Modal.tsx",
+          "hash": "11581029644635502590",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/Customer/eslint.config.mjs",
+          "hash": "10818484782922660641",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/Customer/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/Customer/jest.config.ts",
+          "hash": "13836266875164880131"
+        },
+        {
+          "file": "apps/Customer/next-env.d.ts",
+          "hash": "9827906575449055322"
+        },
+        {
+          "file": "apps/Customer/next.config.js",
+          "hash": "7777646810186093015",
+          "deps": [
+            "npm:@module-federation/nextjs-mf",
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/Customer/pages/_app.tsx",
+          "hash": "5063485435580695334",
+          "deps": [
+            "npm:next",
+            "npm:react",
+            "npm:@mui/material",
+            "npm:cookies-next",
+            "theme",
+            "npm:react-i18next",
+            "language"
+          ]
+        },
+        {
+          "file": "apps/Customer/pages/display/index.tsx",
+          "hash": "5193553069356852720"
+        },
+        {
+          "file": "apps/Customer/pages/index.module.scss",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/Customer/pages/index.tsx",
+          "hash": "10021637223381514344",
+          "deps": [
+            "npm:react",
+            "npm:react-i18next",
+            "language",
+            "textfield",
+            "npm:cookies-next"
+          ]
+        },
+        {
+          "file": "apps/Customer/pages/styles.css",
+          "hash": "2063387531564215811"
+        },
+        {
+          "file": "apps/Customer/project.json",
+          "hash": "16440727398981173539"
+        },
+        {
+          "file": "apps/Customer/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/Customer/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/Customer/specs/index.spec.tsx",
+          "hash": "8980486570212687727",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "apps/Customer/tsconfig.json",
+          "hash": "2840913740993912239"
+        },
+        {
+          "file": "apps/Customer/tsconfig.spec.json",
+          "hash": "13752930008724566565"
+        }
+      ],
+      "textfield": [
+        {
+          "file": "libs/shared-components/textfield/README.md",
+          "hash": "2688832740396361268"
+        },
+        {
+          "file": "libs/shared-components/textfield/eslint.config.mjs",
+          "hash": "16759498837230279251"
+        },
+        {
+          "file": "libs/shared-components/textfield/project.json",
+          "hash": "14286243231625187270"
+        },
+        {
+          "file": "libs/shared-components/textfield/src/index.ts",
+          "hash": "16441683117221493217"
+        },
+        {
+          "file": "libs/shared-components/textfield/src/lib/interface.ts",
+          "hash": "379604334436839424",
+          "deps": [
+            "npm:@mui/material"
+          ]
+        },
+        {
+          "file": "libs/shared-components/textfield/src/lib/textfield.tsx",
+          "hash": "17915613584012155806",
+          "deps": [
+            "npm:react",
+            "npm:@mui/material",
+            "npm:next",
+            "npm:@mui/icons-material",
+            [
+              "npm:@mui/material",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "libs/shared-components/textfield/tsconfig.json",
+          "hash": "2256358475088894945"
+        },
+        {
+          "file": "libs/shared-components/textfield/tsconfig.lib.json",
+          "hash": "1465115162659296621"
+        }
+      ],
+      "language": [
+        {
+          "file": "libs/language/README.md",
+          "hash": "3281138078209475555"
+        },
+        {
+          "file": "libs/language/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "libs/language/project.json",
+          "hash": "12183154974471048438"
+        },
+        {
+          "file": "libs/language/src/index.ts",
+          "hash": "8293846062404968992"
+        },
+        {
+          "file": "libs/language/src/lib/language.ts",
+          "hash": "9753531657644532950",
+          "deps": [
+            "npm:i18next",
+            "npm:react-i18next",
+            "npm:cookies-next"
+          ]
+        },
+        {
+          "file": "libs/language/src/locales/en.json",
+          "hash": "1822559025995825794"
+        },
+        {
+          "file": "libs/language/src/locales/vi.json",
+          "hash": "1057949594436724211"
+        },
+        {
+          "file": "libs/language/tsconfig.json",
+          "hash": "18376933310221419182"
+        },
+        {
+          "file": "libs/language/tsconfig.lib.json",
+          "hash": "15798669420171897096"
+        }
+      ],
+      "Market": [
+        {
+          "file": "apps/Market/.swcrc",
+          "hash": "2742566327615098680"
+        },
+        {
+          "file": "apps/Market/eslint.config.mjs",
+          "hash": "10818484782922660641",
+          "deps": [
+            "npm:@eslint/eslintrc",
+            "npm:@eslint/js",
+            "npm:@eslint/compat",
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/Market/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/Market/next-env.d.ts",
+          "hash": "9827906575449055322"
+        },
+        {
+          "file": "apps/Market/next.config.js",
+          "hash": "17252635002163063865",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/Market/project.json",
+          "hash": "1200000476558022828"
+        },
+        {
+          "file": "apps/Market/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/Market/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/Market/src/pages/_app.tsx",
+          "hash": "15883135145427893520",
+          "deps": [
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/Market/src/pages/index.module.scss",
+          "hash": "4786619528779355986"
+        },
+        {
+          "file": "apps/Market/src/pages/index.tsx",
+          "hash": "800256276863836791"
+        },
+        {
+          "file": "apps/Market/src/pages/styles.css",
+          "hash": "2063387531564215811"
+        },
+        {
+          "file": "apps/Market/tsconfig.json",
+          "hash": "14061809930218725688"
+        }
+      ],
+      "fonts": [
+        {
+          "file": "libs/fonts/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/fonts/README.md",
+          "hash": "10329378383854834950"
+        },
+        {
+          "file": "libs/fonts/eslint.config.mjs",
+          "hash": "8789163670399984295",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/fonts/project.json",
+          "hash": "3166836498149981809"
+        },
+        {
+          "file": "libs/fonts/src/index.ts",
+          "hash": "17274728336410781004"
+        },
+        {
+          "file": "libs/fonts/src/lib/OFL.txt",
+          "hash": "6308946609487177423"
+        },
+        {
+          "file": "libs/fonts/src/lib/README.txt",
+          "hash": "10643274146954375143"
+        },
+        {
+          "file": "libs/fonts/src/lib/Roboto-Italic-VariableFont_wdth,wght.ttf",
+          "hash": "15033795813066171565"
+        },
+        {
+          "file": "libs/fonts/src/lib/Roboto-VariableFont_wdth,wght.ttf",
+          "hash": "8492148481374108438"
+        },
+        {
+          "file": "libs/fonts/src/lib/Roboto.zip",
+          "hash": "3190992186986009684"
+        },
+        {
+          "file": "libs/fonts/src/lib/fonts.module.scss",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "libs/fonts/src/lib/fonts.tsx",
+          "hash": "9300217693253627373"
+        },
+        {
+          "file": "libs/fonts/src/lib/hello-server.tsx",
+          "hash": "2397568674684759047"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Black.ttf",
+          "hash": "15576114461648511059"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-BlackItalic.ttf",
+          "hash": "17924925833981249435"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Bold.ttf",
+          "hash": "980297395090187327"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-BoldItalic.ttf",
+          "hash": "17700482517497036831"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-ExtraBold.ttf",
+          "hash": "2610744898055188226"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-ExtraBoldItalic.ttf",
+          "hash": "11218514333188268287"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-ExtraLight.ttf",
+          "hash": "1792799730933721692"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-ExtraLightItalic.ttf",
+          "hash": "14722968296741977562"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Italic.ttf",
+          "hash": "15967742356775777141"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Light.ttf",
+          "hash": "968820736777375787"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-LightItalic.ttf",
+          "hash": "8949862807009453023"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Medium.ttf",
+          "hash": "10323615722458477232"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-MediumItalic.ttf",
+          "hash": "17310301341145130047"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Regular.ttf",
+          "hash": "12565051962860109453"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-SemiBold.ttf",
+          "hash": "17786212459909174276"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-SemiBoldItalic.ttf",
+          "hash": "1069497537668856682"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-Thin.ttf",
+          "hash": "8777393510159208907"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto-ThinItalic.ttf",
+          "hash": "9400090898823977346"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Black.ttf",
+          "hash": "259800408158501443"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-BlackItalic.ttf",
+          "hash": "5364470901282349185"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Bold.ttf",
+          "hash": "2543860743491616248"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-BoldItalic.ttf",
+          "hash": "17251672736414693506"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-ExtraBold.ttf",
+          "hash": "4107460709357238261"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-ExtraBoldItalic.ttf",
+          "hash": "14847026478850532214"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-ExtraLight.ttf",
+          "hash": "18054124532533863406"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-ExtraLightItalic.ttf",
+          "hash": "3405334846613744997"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Italic.ttf",
+          "hash": "3916175795562012294"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Light.ttf",
+          "hash": "5666652028029003067"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-LightItalic.ttf",
+          "hash": "273304465308281828"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Medium.ttf",
+          "hash": "3623407661821229634"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-MediumItalic.ttf",
+          "hash": "13780809083967654035"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Regular.ttf",
+          "hash": "9221464883049356501"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-SemiBold.ttf",
+          "hash": "10070549805406661217"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-SemiBoldItalic.ttf",
+          "hash": "1992130078971994726"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-Thin.ttf",
+          "hash": "2519732108609118636"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_Condensed-ThinItalic.ttf",
+          "hash": "2334601353369536902"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Black.ttf",
+          "hash": "16122066103527701023"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-BlackItalic.ttf",
+          "hash": "10718426594885539929"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Bold.ttf",
+          "hash": "8838702129194368135"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-BoldItalic.ttf",
+          "hash": "12654615561360894482"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-ExtraBold.ttf",
+          "hash": "15820856063450633102"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf",
+          "hash": "2845487598694630549"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-ExtraLight.ttf",
+          "hash": "10876190980401270247"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-ExtraLightItalic.ttf",
+          "hash": "10200609035185486823"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Italic.ttf",
+          "hash": "17768520902764227161"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Light.ttf",
+          "hash": "2066941781144252450"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-LightItalic.ttf",
+          "hash": "5117356004739578566"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Medium.ttf",
+          "hash": "17704958233323668273"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-MediumItalic.ttf",
+          "hash": "5637840914179332254"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Regular.ttf",
+          "hash": "3961652036758208296"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-SemiBold.ttf",
+          "hash": "7478033886669573238"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-SemiBoldItalic.ttf",
+          "hash": "4332616725514862214"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-Thin.ttf",
+          "hash": "3670593686445779246"
+        },
+        {
+          "file": "libs/fonts/src/lib/static/Roboto_SemiCondensed-ThinItalic.ttf",
+          "hash": "7390250519116136926"
+        },
+        {
+          "file": "libs/fonts/src/server.ts",
+          "hash": "8912437808649717296"
+        },
+        {
+          "file": "libs/fonts/tsconfig.json",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "libs/fonts/tsconfig.lib.json",
+          "hash": "1536859351713546153"
+        }
+      ],
+      "input": [
+        {
+          "file": "libs/shared-components/input/README.md",
+          "hash": "1947066353450442405"
+        },
+        {
+          "file": "libs/shared-components/input/eslint.config.mjs",
+          "hash": "16759498837230279251"
+        },
+        {
+          "file": "libs/shared-components/input/project.json",
+          "hash": "7394268529123714651"
+        },
+        {
+          "file": "libs/shared-components/input/src/index.ts",
+          "hash": "6055025696172241021"
+        },
+        {
+          "file": "libs/shared-components/input/src/lib/input.tsx",
+          "hash": "2824456346455160266",
+          "deps": [
+            "npm:@mui/material",
+            "npm:@mui/icons-material",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shared-components/input/tsconfig.json",
+          "hash": "2256358475088894945"
+        },
+        {
+          "file": "libs/shared-components/input/tsconfig.lib.json",
+          "hash": "15819397546412726872"
+        }
+      ]
+    }
+  }
+}

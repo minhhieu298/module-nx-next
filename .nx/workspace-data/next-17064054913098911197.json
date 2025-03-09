@@ -1,0 +1,7505 @@
+{
+  "15133851121037827304": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "8329154033582454343": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Market",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Market/.next",
+        "{workspaceRoot}/apps/Market/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Market"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Market --includeDependentProjects -- npx nx build-deps Market"
+    }
+  },
+  "8121245194540307795": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "8161007629805200889": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1329373040238615807": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5979503109927683488": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "870912934866196150": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3170047532882588522": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "7663925563352786220": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "462244229844712953": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3468714344007262673": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1673731305751927987": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17247359988943586662": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2523363833146188829": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "10968963898962227996": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11317725653173567676": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3668790716430679458": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "10687054428745097775": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2604446897285597801": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "8364230680564619325": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13320087844714871727": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "9637648170431116300": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14111036293236394099": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "10766003267158677575": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17048339893827507090": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15302233432177481560": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3312828235617250782": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14933400397487092322": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2892339626808603614": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11951102614305170117": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "16165350736099966045": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12472093015868943778": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6554295631961024843": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "384680998073855108": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12225688746915968375": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "9334258556048724785": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17701174787183714280": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2712546760486644306": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6625686458400478640": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17648196154236920806": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13025728671246545023": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5480422942383791897": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14159133250218076017": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12063432920817030155": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1271131299744319791": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "16544475325695759074": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "8096814330310056538": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5729873828375453486": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17952711989654084801": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5947980766181236641": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14486079657027048263": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11355895599143571099": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11501738292073121289": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "7435565890723966976": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1187057696090231929": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14877308387220728673": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "4708314590485739189": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17130629307996796590": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13774324392390807313": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3563670810939551657": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Market",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Market/.next",
+        "{workspaceRoot}/apps/Market/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Market"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Market --includeDependentProjects -- npx nx build-deps Market"
+    }
+  },
+  "14400849687215044142": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2219400460910233024": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1296443921854148780": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1365963085674851487": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15711191107379904497": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15522320433916429444": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1627636295536545598": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "16738992454467648437": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "4639009939344514079": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2259970655574740743": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "1039466309847482989": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "10212138150610548828": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3669637380346707519": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "2870626022476017408": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15504129025527827599": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "8738490628123435514": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14097403104600176638": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5500053002361412197": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "7382112140549678937": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "18390985348075846233": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14506095108386700280": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "16589506319552310108": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17766209604857714617": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12640226565991645159": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17761904000970886033": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "16343674876180469937": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "10627624750544799483": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13970992970671402509": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "9786159669474024804": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3049979340535990018": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "942864366507751907": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14079600003123557311": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17926463891586635996": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13334368967690050902": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "18288631287284083115": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14666071694609764809": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6083069312383415500": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "7016966166560923485": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "13648325566895761576": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6483493942523880514": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Market",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Market/.next",
+        "{workspaceRoot}/apps/Market/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Market"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Market"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Market --includeDependentProjects -- npx nx build-deps Market"
+    }
+  },
+  "10873952812554144058": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6389142661828974175": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17986559272480240772": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15547502353806625620": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "18233205934356117432": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11000181196236892130": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17630872726647913111": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17007510958330672397": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3650579084563800944": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15489452822734578521": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "9724108617776879829": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14903846836118704508": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6756982032871122493": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "3721897331065041643": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "6562997465191814907": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12539587534544511446": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "11022691684461756421": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "5329148797105431879": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "15698433559115001988": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "14556920977366972765": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "12430612214497638905": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "17544394882775647969": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  },
+  "571832167773390435": {
+    "build": {
+      "command": "next build",
+      "options": {
+        "cwd": "apps/Customer",
+        "tty": false
+      },
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "next"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/apps/Customer/.next",
+        "{workspaceRoot}/apps/Customer/.next/!(cache)"
+      ]
+    },
+    "dev": {
+      "command": "next dev",
+      "options": {
+        "cwd": "apps/Customer"
+      }
+    },
+    "start": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "serve-static": {
+      "command": "next start",
+      "options": {
+        "cwd": "apps/Customer"
+      },
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "build-deps": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "watch-deps": {
+      "dependsOn": [
+        "build-deps"
+      ],
+      "command": "npx nx watch --projects Customer --includeDependentProjects -- npx nx build-deps Customer"
+    }
+  }
+}
