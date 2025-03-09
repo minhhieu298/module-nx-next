@@ -4,18 +4,35 @@ import { useTranslation } from 'react-i18next';
 import { changeLanguage } from '@module-federation-next/language';
 import { i18n } from '@module-federation-next/language';
 import { CustomTextField } from '@module-federation-next/textfield';
-import { setCookie } from 'cookies-next';
+import { CustomTabs } from '@module-federation-next/Tabs';
 
 function Index() {
   console.log(i18n.language);
 
   const { t } = useTranslation();
-  const channel = useMemo(() => new BroadcastChannel('lang_channel'), []);
+  const channel = useMemo(() => new BroadcastChannel('language_channel'), []);
 
   const handleLanguage = (lang: string) => {
     changeLanguage(lang);
     channel.postMessage({ lang: i18n.language === 'vi' ? 'en' : 'vi' });
-    setCookie('language', lang)
+    localStorage.setItem('language', lang);
+  };
+  const tabData = [
+    {
+      label: 'Tab 1',
+      content: <div>Nội dung của Tab 1</div>,
+    },
+    {
+      label: 'Tab 2',
+      content: <div>Nội dung của Tab 2</div>,
+    },
+    {
+      label: 'Tab 3',
+      content: <div>Nội dung của Tab 3</div>,
+    },
+  ];
+  const handleTabChange = (newValue: number) => {
+    console.log('Tab đã thay đổi thành:', newValue);
   };
 
   return (
@@ -30,6 +47,13 @@ function Index() {
       {/* <CustomTextField /> */}
       <div suppressHydrationWarning>
         <CustomTextField type="2" />
+        {/* <CustomTabs
+          tabs={tabData}
+          variant="scrollable"
+          orientation="horizontal"
+          defaultTab={0}
+          onTabChange={handleTabChange}
+        /> */}
       </div>
     </div>
   );

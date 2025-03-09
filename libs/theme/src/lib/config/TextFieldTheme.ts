@@ -64,7 +64,7 @@ export const TextFieldTheme = {
           padding: 0,
           '&:hover .MuiOutlinedInput-notchedOutline': {
             borderWidth: '1px',
-            borderColor: '#fff',
+            borderColor:  theme.palette.mode === 'dark' ? '#efefef': '#000000'
           },
           '.MuiInputBase-input': {
             padding: 0,
