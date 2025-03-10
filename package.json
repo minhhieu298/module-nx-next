@@ -6,10 +6,12 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
+    "@emotion/server": "^11.11.0",
     "@emotion/styled": "^11.14.0",
     "@module-federation/nextjs-mf": "^8.8.18",
     "@mui/icons-material": "^6.4.7",
     "@mui/material": "^6.4.7",
+    "@mui/material-nextjs": "^6.4.3",
     "@mui/styles": "^6.4.7",
     "cookies-next": "^5.1.0",
     "i18next": "^24.2.2",

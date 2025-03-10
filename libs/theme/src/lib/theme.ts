@@ -1,4 +1,4 @@
-// libs/theme-lib/src/lib/theme-lib.ts
+'use client'
 import { createTheme, ThemeOptions } from '@mui/material/styles';
 import { InputTheme } from './config/InputTheme';
 import { TextFieldTheme } from './config/TextFieldTheme';
@@ -33,6 +33,7 @@ export const getInitialTheme = (): ThemeMode => {
 // Tạo theme cho Material-UI
 export const createCustomTheme = (mode: ThemeMode): ThemeOptions => {
   return createTheme({
+    cssVariables: true,
     palette: {
       mode,
       primary: {

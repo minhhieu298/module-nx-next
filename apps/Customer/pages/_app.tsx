@@ -1,22 +1,26 @@
-'use client';
 import { AppProps } from 'next/app';
 import './styles.css';
 import { useEffect, useMemo, useState } from 'react';
-import { CssBaseline, ThemeProvider as MuiThemeProvider } from '@mui/material';
+import {
+  createTheme,
+  CssBaseline,
+  ThemeProvider as MuiThemeProvider,
+} from '@mui/material';
 import {
   createCustomTheme,
   getInitialTheme,
   getSystemTheme,
 } from '@module-federation-next/theme';
 import { I18nextProvider } from 'react-i18next';
-import { changeLanguage, i18n } from '@module-federation-next/language';
 import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
-import './styles.css'
+import './styles.css';
+import { AppCacheProvider } from '@mui/material-nextjs/v15-pagesRouter';
+import Head from 'next/head';
 
-function CustomApp({ Component, pageProps }: AppProps) {
+function CustomApp(props: AppProps) {
+  const { Component, pageProps } = props;
   const [mode, setMode] = useState<'light' | 'dark'>(getInitialTheme());
-  console.log('mode', mode);
 
   const emotionCache = useMemo(
     () => createCache({ key: `mui-cache-${mode}` }),
@@ -29,19 +33,15 @@ function CustomApp({ Component, pageProps }: AppProps) {
     () => new BroadcastChannel('theme_channel'),
     []
   );
-  const lang_channel = useMemo(
-    () => new BroadcastChannel('language_channel'),
-    []
-  );
 
   // Đồng bộ với system theme khi không có
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (e: MediaQueryListEvent) => {
-      const theme = localStorage.getItem('theme')
-      if(theme){
+      const theme = localStorage.getItem('theme');
+      if (theme) {
         //
-      }else{
+      } else {
         setMode(e.matches ? 'dark' : 'light');
       }
     };
@@ -86,15 +86,6 @@ function CustomApp({ Component, pageProps }: AppProps) {
     return () => channel_theme.close();
   }, []);
 
-  // Xử lý ngôn ngữ
-  useEffect(() => {
-    lang_channel.onmessage = (e) => {
-      const lang = e.data.lang === 'en' ? 'vi' : 'en';
-      changeLanguage(lang);
-    };
-    return () => lang_channel.close();
-  }, []);
-
   const toggleTheme = () => {
     const theme = localStorage.getItem('theme');
     if (theme) {
@@ -110,15 +101,16 @@ function CustomApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <I18nextProvider i18n={i18n}>
-        <CacheProvider value={emotionCache}>
-          <MuiThemeProvider theme={muiTheme}>
-            <CssBaseline />
-            <Component {...pageProps} />
-            <button onClick={toggleTheme}>Change thmee</button>
-          </MuiThemeProvider>
-        </CacheProvider>
-      </I18nextProvider>
+      <AppCacheProvider emotionCache={emotionCache} {...props}>
+        {/* <Head>
+          <meta name="viewport" content="initial-scale=1, width=device-width" />
+        </Head> */}
+        <MuiThemeProvider theme={muiTheme}>
+          <CssBaseline />
+          <Component {...pageProps} />
+          <button onClick={toggleTheme}>Change thmee</button>
+        </MuiThemeProvider>
+      </AppCacheProvider>
     </>
   );
 }

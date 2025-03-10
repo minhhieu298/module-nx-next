@@ -1,21 +1,19 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 
 import { useTranslation } from 'react-i18next';
-import { changeLanguage } from '@module-federation-next/language';
-import { i18n } from '@module-federation-next/language';
+import { useCustomLanguage } from '@module-federation-next/language';
 import { CustomTextField } from '@module-federation-next/textfield';
 import { CustomTabs } from '@module-federation-next/Tabs';
+import { Typography } from '@mui/material';
 
 function Index() {
-  console.log(i18n.language);
-
+  const { language, changeLanguage, translations } = useCustomLanguage();
   const { t } = useTranslation();
-  const channel = useMemo(() => new BroadcastChannel('language_channel'), []);
+  const [isClient, setIsClient] = useState(false);
 
-  const handleLanguage = (lang: string) => {
+  const handleLanguage = (lang: 'vi' | 'en') => {
+    //
     changeLanguage(lang);
-    channel.postMessage({ lang: i18n.language === 'vi' ? 'en' : 'vi' });
-    localStorage.setItem('language', lang);
   };
   const tabData = [
     {
@@ -35,25 +33,30 @@ function Index() {
     console.log('Tab đã thay đổi thành:', newValue);
   };
 
+  // useEffect(() => {
+  //   setIsClient(true);
+  // }, []);
+  // if (!isClient) return null;
+  if (!translations) return <p>Loading...</p>;
   return (
     <div>
-      <h1>{t('greeting')}</h1>
-      <p>{t('description')}</p>
-      <p>Current locale: {i18n.language}</p>
-
+      {/* {/* <h1>{translations.greeting}</h1> */}
+      <p>{translations.description}</p>
+      <p>Current locale: {language}</p>
+      {/* <Typography component='div'>{t('greeting')}</Typography> */}
       {/* Buttons để thay đổi ngôn ngữ */}
       <button onClick={() => handleLanguage('en')}>English</button>
       <button onClick={() => handleLanguage('vi')}>Tiếng Việt</button>
-      {/* <CustomTextField /> */}
-      <div suppressHydrationWarning>
-        <CustomTextField type="2" />
+      <CustomTextField type="2" />
+      <div>
+        {/* <CustomTextField type="2" />
         <CustomTabs
           tabs={tabData}
           variant="scrollable"
           orientation="horizontal"
           defaultTab={0}
           onTabChange={handleTabChange}
-        />
+        /> */}
       </div>
     </div>
   );

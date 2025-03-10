@@ -1,5 +1,4 @@
 'use client'; // Chỉ chạy trên client-side
-
 import React, { FC, memo, useEffect, useState } from 'react';
 import {
   Box,
@@ -126,7 +125,7 @@ export const CustomTextField: FC<CustomTextFieldProps> = memo((props) => {
   };
 
   // Chỉ render khi client-side sẵn sàng
-  if (!isClient) return null;
+  // if (!isClient) return null;
 
   return renderTextField(props.type, value, handleChange, props);
 });
