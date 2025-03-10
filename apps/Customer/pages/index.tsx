@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 
 function Index() {
   const { language, changeLanguage, translations } = useCustomLanguage();
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const [isClient, setIsClient] = useState(false);
 
   const handleLanguage = (lang: 'vi' | 'en') => {
@@ -37,7 +37,7 @@ function Index() {
   //   setIsClient(true);
   // }, []);
   // if (!isClient) return null;
-  if (!translations) return <p>Loading...</p>;
+  // if (!translations) return <p>Loading...</p>;
   return (
     <div>
       {/* {/* <h1>{translations.greeting}</h1> */}

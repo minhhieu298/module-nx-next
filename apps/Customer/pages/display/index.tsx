@@ -3,7 +3,7 @@ import { useCustomLanguage } from '@module-federation-next/language';
 
 export default function DisplaySettings() {
   const { language, changeLanguage, translations } = useCustomLanguage();
-  if (!translations) return <p>Loading...</p>;
+  // if (!translations) return <p>Loading...</p>;
   return (
     <div>
       <h1>Display Settings</h1>

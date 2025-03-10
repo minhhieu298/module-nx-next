@@ -3,14 +3,17 @@
 # dependencies
 /node_modules
 /.pnp
-/.nx
+.nx/
+.nx/cache/
+.nx/workspace-data/
+
+
 .pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
 # testing
 /coverage
 

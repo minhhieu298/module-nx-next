@@ -101,7 +101,7 @@ function CustomApp(props: AppProps) {
 
   return (
     <>
-      <AppCacheProvider emotionCache={emotionCache} {...props}>
+      <AppCacheProvider emotionCache={emotionCache} >
         {/* <Head>
           <meta name="viewport" content="initial-scale=1, width=device-width" />
         </Head> */}

@@ -82,7 +82,7 @@ import { useEffect, useState } from 'react';
 const SUPPORTED_LANGUAGES = ['en', 'vi'] as const;
 type LanguageType = (typeof SUPPORTED_LANGUAGES)[number];
 
-// Hàm lấy ngôn ngữ ban đầu (chỉ chạy trên client)
+// Lấy ngôn ngữ từ localStorage hoặc mặc định là 'vi'
 const getInitialLanguage = (): LanguageType => {
   if (typeof window === 'undefined') return 'vi'; // Tránh lỗi SSR
 
@@ -92,18 +92,20 @@ const getInitialLanguage = (): LanguageType => {
     : 'vi';
 };
 
+// Tải dữ liệu dịch đồng bộ (fix hydration)
+const loadTranslationsSync = (lang: LanguageType) => {
+  try {
+    return require(`../locales/${lang}.json`);
+  } catch (error) {
+    return '';
+  }
+};
+
 // Hook custom để xử lý ngôn ngữ
 export const useCustomLanguage = () => {
-  const [language, setLanguage] = useState<LanguageType>('vi'); // Mặc định 'vi' để tránh lỗi SSR
-  const [translations, setTranslations] = useState<Record<string, string> | null>(null);
+  const [language, setLanguage] = useState<LanguageType>(getInitialLanguage());
+  const [translations, setTranslations] = useState<Record<string, string>>(loadTranslationsSync(getInitialLanguage()));
   const langChannel = new BroadcastChannel('language_channel');
-
-  // Chỉ load dữ liệu dịch trên client-side
-  useEffect(() => {
-    const lang = getInitialLanguage();
-    setLanguage(lang);
-    import(`../locales/${lang}.json`).then((module) => setTranslations(module.default));
-  }, []);
 
   // Hàm đổi ngôn ngữ
   const changeLanguage = async (lang: LanguageType) => {
